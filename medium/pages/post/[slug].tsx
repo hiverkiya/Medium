@@ -9,10 +9,10 @@ interface Props {
   post: Post
 }
 interface IFormInput {
-  _id: string
-  name: string
-  email: string
-  comment: string
+  _id: string;
+  name: string;
+  email: string;
+  comment: string;
 }
 
 interface Props {
@@ -27,8 +27,8 @@ function Post({ post }: Props) {
     formState: { errors },
   } = useForm<IFormInput>()
 
-  const onSubmit: SubmitHandler<IFormInput> = (data) => {
-    fetch('/api/createComment', {
+  const onSubmit: SubmitHandler<IFormInput> =  (data) => {
+     fetch('/api/createComment', {
       method: 'POST',
       body: JSON.stringify(data),
     })
@@ -111,7 +111,7 @@ function Post({ post }: Props) {
           <h4 className="text-3xl font-bold">Leave a comment below</h4>
           <hr className="mt-2 py-3" />
           <input
-            {...register('_id')}
+            {...register("_id")}
             type="hidden"
             name="_id"
             value={post._id}
@@ -119,7 +119,7 @@ function Post({ post }: Props) {
           <label className="mb-5 block">
             <span className="text-gray-700">Name</span>
             <input
-              {...register('name', { required: true })}
+              {...register("name", { required: true })}
               placeholder="Enter your name"
               type="text"
               className="form-input mt-1 block w-full rounded border py-2 px-3 shadow outline-none ring-yellow-500 focus:ring"
@@ -128,7 +128,7 @@ function Post({ post }: Props) {
           <label className="mb-5 block">
             <span className="text-gray-700">Email</span>
             <input
-              {...register('email', { required: true })}
+              {...register("email", { required: true })}
               placeholder="Put your email here"
               type="email"
               className="form-input mt-1 block w-full rounded border py-2 px-3 shadow outline-none ring-yellow-500 focus:ring"

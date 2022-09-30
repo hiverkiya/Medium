@@ -7,9 +7,9 @@
 
 # testing
 /coverage
-/mediumSanity/node_modules
+./mediumSanity/node_modules
 # next.js
-/.next/
+.next/
 /out/
 
 # production
