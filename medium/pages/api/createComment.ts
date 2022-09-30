@@ -7,7 +7,7 @@ const config = {
     dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
     projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
     useCdn: process.env.NODE_ENV === 'production',
-    token: process.env.SANITY_API_TOKEN
+    token: process.env.SANITY_API_TOKEN,
 }
 
 const client = sanityClient(config)
@@ -26,7 +26,7 @@ export default async function createComment(
             name,
             email,
             comment
-        })
+        });
     }
     catch(err){
         return res.status(500).json({message:' Error submitting comment', err})
