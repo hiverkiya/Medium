@@ -1,11 +1,11 @@
 # Medium 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-
 https://user-images.githubusercontent.com/34170205/193418714-8e8b3bcb-5675-4c4b-8b27-0e8d731bcbb2.mp4
 
-
-              Medium is built to provide a rich reading experience with moderated comment functionality for a seamless experience
+<p align="center">Medium is built to provide a rich reading experience with moderated comment functionality for a seamless experience</p>
+    
+    
 ## Features
 - Fetches CMS data into a Next.js app using efficient Modern Data Fetching techniques
 - Uses Next.js (Incremental Static Regeneration) to speed up page loading and optimize page caching
