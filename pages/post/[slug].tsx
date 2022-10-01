@@ -4,7 +4,6 @@ import Header from "../../components/Header";
 import PortableText from "react-portable-text";
 import { sanityClient, urlFor } from "../../sanity";
 import { Post } from "../../typings";
-import { resolveHref } from "next/dist/shared/lib/router/router";
 import { useForm, SubmitHandler } from "react-hook-form";
 
 interface IFormInput {
@@ -42,7 +41,7 @@ function Post({ post }: Props) {
       <Header />
       <img
         src={urlFor(post.mainImage).url()!}
-        className="w-full h-50 object-cover"
+        className="w-full h-60 object-cover"
         alt=""
       />
 
@@ -176,7 +175,7 @@ function Post({ post }: Props) {
 
 export default Post;
 export const getStaticPaths = async () => {
-  const query = `*[_type=="post]{
+  const query = `*[_type == "post"]{
         _id,
         slug{
             current
@@ -218,7 +217,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   return {
     props: {
       post,
+      revalidate: 60, //after 60 seconds, the old cached version is updated
     },
-    revalidate: 60, //after 60 seconds, the old cached version is updated
   };
 };
