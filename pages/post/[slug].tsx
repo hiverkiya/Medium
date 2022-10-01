@@ -62,7 +62,7 @@ function Post({ post }: Props) {
           <p className="text-sm font-extralight">
             Blog post by{" "}
             <span className="text-green-600">{post.author.name}</span> -
-            Published at {new Date(post._createdAt).toLocaleString()}
+            Published at {new Date(post.createdAt).toLocaleString()}
           </p>
         </div>
         <div className="mt-10">
