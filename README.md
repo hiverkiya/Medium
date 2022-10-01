@@ -20,13 +20,13 @@ https://user-images.githubusercontent.com/34170205/193418714-8e8b3bcb-5675-4c4b-
 - [Node.js](https://nodejs.org/en/) - A Javascript runtime built on Chrome's V8 Javascript engine
 ## Installation
 
-Install the dependencies in the **main** folder and **mediumSanity** 
+Install the dependencies in the **main** folder and **mediumsanity** 
 
 ```sh
 npm install
 cd mediumSanity && npm install
 ```
-Spin up the **Development server** in the **main folder** and **Sanity dashboard** in **mediumSanity**
+Spin up the **Development server** in the **main folder** and **Sanity dashboard** in **mediumsanity**
 ```sh
 npm run dev
 sanity start
