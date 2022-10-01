@@ -13,7 +13,7 @@ export default function Home({ posts }: Props) {
     <div className="max-w-7xl mx-auto">
       <Head>
         <title>Medium</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/medium.png" />
       </Head>
       <Header />
       <div className="flex justify-between items-center bg-yellow-300 border-y border-black py-10 lg:py-0">
