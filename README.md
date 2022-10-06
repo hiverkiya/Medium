@@ -35,7 +35,7 @@ For production environments
 
 ```sh
 NEXT_PUBLIC_SANITY_PROJECT_ID = < Sanity project id >
-NEXT_PUbLIC_SANITY_DATASET = < Sanity dataset name >
+NEXT_PUBLIC_SANITY_DATASET = < Sanity dataset name >
 SANITY_API_TOKEN = < Sanity API key >
 ```
 
