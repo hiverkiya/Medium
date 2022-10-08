@@ -1,9 +1,9 @@
 # Medium 
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 https://user-images.githubusercontent.com/34170205/193418714-8e8b3bcb-5675-4c4b-8b27-0e8d731bcbb2.mp4
 
-<p align="center">Medium is built to provide a rich reading experience with moderated comment functionality for a seamless experience</p>
+<p align="center">Medium is built to provide a rich reading experience with moderated comment functionality for a seamless experience.</p>
     
     
 ## Features
@@ -39,4 +39,4 @@ NEXT_PUBLIC_SANITY_DATASET = < Sanity dataset name >
 SANITY_API_TOKEN = < Sanity API key >
 ```
 
-[![GitHub license](https://img.shields.io/github/license/Verkiya/Let-Us-C-Solutions.svg?style=for-the-badge)](https://github.com/hiverkiya/Medium/blob/main/LICENSE)
+[![GitHub license](https://raw.githubusercontent.com/hiverkiya/Medium/main/license.svg)](https://github.com/hiverkiya/Medium/blob/main/LICENSE)
